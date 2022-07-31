@@ -5,7 +5,6 @@ body {
     padding: 0;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
-
 }
 
 /* This is the CSS for the header nav bar */
@@ -170,11 +169,12 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .quote-main {
     width: 50%;
-    color: #1F2937
+    color: #1F2937;
 } 
 
 .quote-text {
