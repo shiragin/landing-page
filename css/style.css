@@ -43,7 +43,10 @@ ul {
     padding: 0;
 }
 
-ul a, .header-main-text p {
+ul a, 
+.header-main-text p,
+.footer h5,
+.footer p {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -237,7 +240,23 @@ a:hover {
 /* This is the CSS for the footer div */
 
 .footer {
-    height: 200px;
+    display: flex;
+    height: 150px;
     background-color: #1F2937;
+    text-align: center;
+    padding: 10px, 15%, 10px, 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h5 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.footer p {
+    font-weight: 300;
+    margin: 0;
 }
 
